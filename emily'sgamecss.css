@@ -143,6 +143,42 @@ button.Button:hover{
     font-size: 50px;
   
   }
+}
+
+
+@media screen and (max-width:1200px) and (min-width:801px) {
+	h1.texto {
+    	font-size: 47px;
+    }
+
+
+  	h1.textin {
+    	font-size: 95px;
+    	margin-top: -50px;
+    	margin-bottom: 20%;
+    }
+
+		button.Button {
+    	font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+  h1.texto {
+    font-size: 35px;
+    }
+
+  h1.textin {
+    font-size: 78px;
+    margin-top: -40px;
+    margin-bottom: 50%;
+
+    }
+
+  button.Button {
+    font-size: 30px;
+    }
 
 }
 
