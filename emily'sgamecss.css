@@ -1,24 +1,26 @@
-/**//**//**//**/
-/*BACKGROUND*/
-/**//**//**//**/
-
 .flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .flexCenter {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .fullHeight {
     height: 100vh;
 }
 .itemCenter {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .fullHeight {
-    height: 98.68vh;
+    height: 98.3vh;
 }
 .centerImage {
-    background: url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg); center;
+    background: url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg);
     background-size: cover;
 }
 
@@ -28,10 +30,19 @@
 
 #content {
 	height: 550px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 
 
 }
@@ -43,8 +54,12 @@
 /**//**//**//**//**//**/
 h1.texto {
 	margin-top: 15%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	font-family: quicksand-regular;
     color: 	#999999
 
@@ -79,9 +94,13 @@ h1.texto {
 /*CHOICES TITLLE */
 /**//**//**//**//**//**//**//**//**/
 h1.textin {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	font-family: Harlow Solid Italic;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-family: quicksand-regular;
 
     color: #531b04
 
@@ -113,15 +132,21 @@ h1.textin {
 /*START BUTTON*/
 /**//**//**//**//**//**//**/
 button.Button {
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	border-color: rgba(255,255,255,0.5);
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-family: Quicksand-Regular;
 	margin-bottom: 3%;
 	margin-top: 2%;
-	color: rgba(255, 255, 255);
+	color: rgb(255, 255, 255);
 	background-color: transparent;
 	border-color: transparent;
 }
@@ -149,6 +174,11 @@ button.Button:hover{
     
     }
 }
+
+
+
+
+
 
 
 
