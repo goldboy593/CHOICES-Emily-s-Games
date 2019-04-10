@@ -166,8 +166,9 @@ button.Button:hover{
 		button.Button {
     	font-size: 47px;
     }
+    
     #audio {
-	margin-top: 15%;
+	margin-top: 30%;
 }
 
 
@@ -188,8 +189,9 @@ button.Button:hover{
   button.Button {
     font-size: 40px;
     }
+
    	#audio {
-	margin-top: 10%;
+	margin-top: 40%;
 }
 
 
