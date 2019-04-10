@@ -146,7 +146,7 @@ button.Button {
 	font-family: Quicksand-Regular;
 	margin-bottom: 3%;
 	margin-top: 2%;
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255, 1);
 	background-color: transparent;
 	border-color: transparent;
 }
