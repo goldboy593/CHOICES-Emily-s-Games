@@ -112,7 +112,7 @@ h1.textin {
 /**//**//**//**//**//**//**/
 /*START BUTTON*/
 /**//**//**//**//**//**//**/
-a.Button {
+button.Button {
 	justify-content: center;
 	border-color: rgba(255,255,255,0.5);
 	display: flex;
@@ -122,27 +122,29 @@ a.Button {
 	margin-bottom: 3%;
 	margin-top: 2%;
 	color: rgba(255, 255, 255);
+	background-color: transparent;
+	border-color: transparent;
 }
 
-a.Button:hover{
+button.Button:hover{
    color: rgba(240,240,240, 0.5)
 }
 
 
 @media screen and (min-width: 1201px) {
-  a.Button {
+  button.Button {
     font-size: 50px;
     
   }
 }
 
 @media screen and (max-width:1200px) and (min-width:801px) {
-	a.Button {
+	button.Button {
     	font-size: 40px;
     	    }
 }
 @media screen and (max-width: 800px) {
-  a.Button {
+  button.Button {
     font-size: 30px;
     
     }
