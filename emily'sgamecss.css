@@ -1,79 +1,157 @@
-body {
-	
+/**//**//**//**/
+/*BACKGROUND*/
+/**//**//**//**/
 
-	  /* background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg); */
-
-	background-image: url(https://images.pexels.com/photos/754082/pexels-photo-754082.jpeg?cs=srgb&dl=blur-blurred-background-colors-754082.jpg&fm=jpg); 
-	
-	 background-position: top center;
-	 background-repeat: no-repeat;
-	 background-size: cover; 
-	 background-color:  black;
-	
+.flexContainer {
+    display: flex;
+}
+.flexCenter {
+    justify-content: center;
+}
+.fullHeight {
+    height: 100vh;
+}
+.itemCenter {
+    align-items: flex-start;
+}
+.fullHeight {
+    height: 98.68vh;
+}
+.centerImage {
+    background: url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg); center;
+    background-size: cover;
 }
 
 
-div.texto {
+
+/*cotent atoa */
+
+#content {
+	height: 550px;
 	display: flex;
 	justify-content: center;
-	font-family: gabriola;
+	flex-direction: column;
+	align-items: center;
 
-    color: white
 
 }
 
 
 
-/* fonte flexivel xD */
+/**//**//**//**//**//**/
+/*Emily's Games Presents*/
+/**//**//**//**//**//**/
+h1.texto {
+	margin-top: 15%;
+	display: flex;
+	justify-content: center;
+	font-family: quicksand-regular;
+    color: 	#999999
+
+
+}
+
 
 @media screen and (min-width: 1201px) {
-  div.texto {
-    font-size: 80px;
+  h1.texto {
+    font-size: 60px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  div.texto {
-    font-size: 30px;
-    }
-}
 
 @media screen and (max-width:1200px) and (min-width:801px) {
-	div.texto {
-    	font-size: 55px;
+	h1.texto {
+    	font-size: 47px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  h1.texto {
+    font-size: 35px;
     }
 }
 
 
-div.textin {
+
+
+
+/**//**//**//**//**//**//**//**//**/
+/*CHOICES TITLLE */
+/**//**//**//**//**//**//**//**//**/
+h1.textin {
 	display: flex;
 	justify-content: center;
 	font-family: Harlow Solid Italic;
 
-    color: white
+    color: #531b04
 
 }
 
 @media screen and (min-width: 1201px) {
-  div.textin {
-    font-size: 65px;
-    margin-top: -40px;
+  h1.textin {
+    font-size: 155px;
+    margin-top: -70px;
   }
 }
 
 
 @media screen and (max-width:1200px) and (min-width:801px) {
-	div.textin {
-    	font-size: 45px;
-    	margin-top: -20px;
+	h1.textin {
+    	font-size: 95px;
+    	margin-top: -50px;
     }
 }
 @media screen and (max-width: 800px) {
-  div.textin {
-    font-size: 25px;
-    margin-top: -5px;
+  h1.textin {
+    font-size: 78px;
+    margin-top: -40px;
     }
 }
+
+
+/**//**//**//**//**//**//**/
+/*START BUTTON*/
+/**//**//**//**//**//**//**/
+a.Button {
+	justify-content: center;
+	border-color: rgba(255,255,255,0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Quicksand-Regular;
+	margin-bottom: 3%;
+	margin-top: 2%;
+	color: rgba(255, 255, 255);
+}
+
+a.Button:hover{
+   color: rgba(240,240,240, 0.5)
+}
+
+
+@media screen and (min-width: 1201px) {
+  a.Button {
+    font-size: 50px;
+    
+  }
+}
+
+@media screen and (max-width:1200px) and (min-width:801px) {
+	a.Button {
+    	font-size: 40px;
+    	    }
+}
+@media screen and (max-width: 800px) {
+  a.Button {
+    font-size: 30px;
+    
+    }
+}
+
+
+
+
+
 
 
 
