@@ -24,7 +24,7 @@ h1 { white-space: nowrap; }
     height: 98.3vh;
 }
 .centerImage {
-    background: url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg);
+    background: url(material-wallpaper-2560x720.jpg), url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg);
     background-size: cover;
 }
 
@@ -140,7 +140,7 @@ button.Button:hover{
   }
 
   button.Button {
-    font-size: 50px;
+    font-size: 55px;
   
   }
 }
@@ -155,50 +155,13 @@ button.Button:hover{
   	h1.textin {
     	font-size: 95px;
     	margin-top: -50px;
-    	margin-bottom: 20%;
+    	margin-bottom: 35%;
     }
 
 		button.Button {
-    	font-size: 40px;
-    }
-
-}
-
-@media screen and (max-width: 800px) {
-  h1.texto {
-    font-size: 35px;
-    }
-
-  h1.textin {
-    font-size: 78px;
-    margin-top: -40px;
-    margin-bottom: 50%;
-
-    }
-
-  button.Button {
-    font-size: 30px;
-    }
-
-}
-
-
-@media screen and (max-width:1200px) and (min-width:801px) {
-	h1.texto {
     	font-size: 47px;
     }
 
-
-  	h1.textin {
-    	font-size: 95px;
-    	margin-top: -50px;
-    	margin-bottom: 20%;
-    }
-
-		button.Button {
-    	font-size: 40px;
-    }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -214,8 +177,8 @@ button.Button:hover{
     }
 
   button.Button {
-    font-size: 30px;
-    
+    font-size: 40px;
     }
 
 }
+
