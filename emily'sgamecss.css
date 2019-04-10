@@ -1,3 +1,8 @@
+body {
+	font-family: "quicksand-regular";
+}
+
+
 .flexContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -60,35 +65,9 @@ h1.texto {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	font-family: quicksand-regular;
+	
     color: 	#999999
-
-
 }
-
-
-@media screen and (min-width: 1201px) {
-  h1.texto {
-    font-size: 60px;
-  }
-}
-
-
-@media screen and (max-width:1200px) and (min-width:801px) {
-	h1.texto {
-    	font-size: 47px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-  h1.texto {
-    font-size: 35px;
-    }
-}
-
-
-
-
 
 /**//**//**//**//**//**//**//**//**/
 /*CHOICES TITLLE */
@@ -100,32 +79,13 @@ h1.textin {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	font-family: quicksand-regular;
+
 
     color: #531b04
 
 }
 
-@media screen and (min-width: 1201px) {
-  h1.textin {
-    font-size: 155px;
-    margin-top: -70px;
-  }
-}
 
-
-@media screen and (max-width:1200px) and (min-width:801px) {
-	h1.textin {
-    	font-size: 95px;
-    	margin-top: -50px;
-    }
-}
-@media screen and (max-width: 800px) {
-  h1.textin {
-    font-size: 78px;
-    margin-top: -40px;
-    }
-}
 
 
 /**//**//**//**//**//**//**/
@@ -156,36 +116,58 @@ button.Button:hover{
 }
 
 
+
+
+
+
 @media screen and (min-width: 1201px) {
+  h1.texto {
+    font-size: 60px;
+  }
+
+     h1.textin {
+    font-size: 155px;
+    margin-top: -70px;
+  }
+
   button.Button {
     font-size: 50px;
-    
+  
   }
+
 }
 
+
 @media screen and (max-width:1200px) and (min-width:801px) {
-	button.Button {
+	h1.texto {
+    	font-size: 47px;
+    }
+
+
+  	h1.textin {
+    	font-size: 95px;
+    	margin-top: -50px;
+    }
+
+		button.Button {
     	font-size: 40px;
-    	    }
+    }
+
 }
+
 @media screen and (max-width: 800px) {
+  h1.texto {
+    font-size: 35px;
+    }
+
+  h1.textin {
+    font-size: 78px;
+    margin-top: -40px;
+    }
+
   button.Button {
     font-size: 30px;
     
     }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
