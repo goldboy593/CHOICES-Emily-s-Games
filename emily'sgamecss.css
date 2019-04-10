@@ -1,6 +1,5 @@
-body {
-	font-family: "quicksand-regular";
-}
+body { font-family: "quicksand-regular";}
+h1 { white-space: nowrap; }
 
 
 .flexContainer {
@@ -34,13 +33,18 @@ body {
 /*cotent atoa */
 
 #content {
-	height: 550px;
+	/* height: 570px; */
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+
+	flex-wrap: nowrap;
+
+/*
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        justify-content: center;
+	        justify-content: center; */
+
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
@@ -58,7 +62,7 @@ body {
 /*Emily's Games Presents*/
 /**//**//**//**//**//**/
 h1.texto {
-	margin-top: 15%;
+	/* margin-top: 15%; */
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -73,9 +77,14 @@ h1.texto {
 /*CHOICES TITLLE */
 /**//**//**//**//**//**//**//**//**/
 h1.textin {
+
+
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+
+		white-space: nowrap;
+
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
@@ -147,6 +156,7 @@ button.Button:hover{
   	h1.textin {
     	font-size: 95px;
     	margin-top: -50px;
+    	margin-bottom: 20%;
     }
 
 		button.Button {
@@ -163,6 +173,8 @@ button.Button:hover{
   h1.textin {
     font-size: 78px;
     margin-top: -40px;
+    margin-bottom: 50%;
+
     }
 
   button.Button {
