@@ -127,8 +127,12 @@ button.Button {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	justify-content: space-between;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 } 
 
 
@@ -177,16 +181,17 @@ button.Button2:hover{
     font-size: 40px;
   
   }
+   div.texto {
+	
+   	 width: 110vh;
+   	 height: 60vh;
+   	}
 
   #audio {
 	margin-top: 20%;
 }
 
- div.texto {
-	
-   	 width: 110vh;
-   	 height: 60vh;
-}
+
 
 }
 
@@ -210,14 +215,15 @@ button.Button2:hover{
 	button.Button2 {
     	font-size: 35px;
     }
-    #audio {
-	margin-top: 38%;
-	}
-		div.texto {
+    	div.texto {
    	 width: 70vh;
    	 height: 70vh;
 	}
 
+    #audio {
+	margin-top: 38%;
+	}
+	
 
 
 }
@@ -241,15 +247,16 @@ button.Button2:hover{
     font-size: 30px;
     }
 
+    	div.texto {
+   	 width: 59vh;
+   	 height: 75vh;
+	}
+
 
    	#audio {
 	margin-top: 53%;
 }
 
-	div.texto {
-   	 width: 59vh;
-   	 height: 75vh;
-}
 
 }
 
@@ -258,5 +265,3 @@ div.ajustestexto {
 	background-color: white;
     padding: 20px;
     border: 2px solid #777777;
-
-}
