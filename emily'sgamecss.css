@@ -188,6 +188,7 @@ button.Button2:hover{
   #audio {
 	margin-top: 20%;
 }
+
 div.tamanhotexto {
 	
    	 width: 110vh;
@@ -258,18 +259,7 @@ div.tamanhotexto {
 
 }
 
-
-/*.flexContainer2 {
-    display: flex;
-  flex: 1; 
-
-}*/
-
-/*.Column2 {
-    flex-direction: column;
-} */
-
-.main2{
+.ajustestexto{
 	font-family: quicksand-regular;
 	background-color: white;
     padding: 20px;
