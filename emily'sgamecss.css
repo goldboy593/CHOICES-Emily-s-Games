@@ -251,11 +251,9 @@ div.ajustestexto {
 	background-color: white;
     padding: 20px;
     border: 2px solid #777777;
-    overflow:scroll; 
-    overflow-x: 
-    hidden;
-    overflow:scroll; 
-    overflow-x: hidden; 
+    overflow: scroll; 
+    overflow-x: hidden;
+
 }
 
 /*@media screen and (max-width:1200px) and (min-width:801px) {
