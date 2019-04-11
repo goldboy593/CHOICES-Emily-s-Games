@@ -251,21 +251,14 @@ div.tamanhotexto {
 }
 
 
-.flexContainer2 {
-    display: flex;
-}
-.flexItem2 {
-   flex: 1; 
+.
 
-}
-.flexColumn2 {
-    flex-direction: column;
-}
+
 
 .textoajustes{
 	font-family: quicksand-regular;
 	background-color: white;
-    order: 2;
+
     padding: 20px;
     border: 2px solid #777777;
 }
