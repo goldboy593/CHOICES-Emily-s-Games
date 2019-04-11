@@ -265,20 +265,19 @@ div.tamanhotexto {
 }
 
 
-.flexContainer2 {
+/*.flexContainer2 {
     display: flex;
-    flex: 1;
+  flex: 1; 
 
-}
+}*/
 
-.flexColumn2 {
+/*.Column2 {
     flex-direction: column;
-}
+} */
 
 .main2{
 	font-family: quicksand-regular;
 	background-color: white;
-    order: 2;
     padding: 20px;
     border: 2px solid #777777;
 
