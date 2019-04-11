@@ -38,7 +38,7 @@ h1 { white-space: nowrap; }
 	display: -ms-flexbox;
 	display: flex;
 
-	flex-wrap: nowrap;
+	
 
 /*
 	-webkit-box-pack: center;
@@ -120,11 +120,44 @@ button.Button {
 	border-color: transparent;
 }
 
-button.Button:hover{
-   color: rgba(240,240,240, 0.5)
+#content2 {
+	/* height: 570px; */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: row;
+	justify-content: center;
+	justify-content: space-between;
 }
 
 
+button.Button2 {
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	border-color: rgba(255,255,255,0.5);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	/*
+	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center; */
+	font-family: Quicksand-Regular;
+/*	margin-bottom: 3%; */
+/*	margin-top: 2%; */ 
+	color: rgba(255,255,255, 1);
+	background-color: transparent;
+	border-color: transparent;
+}
+
+button.Button:hover{
+   color: rgba(240,240,240, 0.5)
+}
+button.Button2:hover{
+   color: rgba(240,240,240, 0.5)
+}
 
 
 
@@ -144,9 +177,20 @@ button.Button:hover{
   
   }
 
+   button.Button2 {
+    font-size: 40px;
+  
+  }
+
   #audio {
 	margin-top: 20%;
 }
+div.fullHeight2 {
+	 height: 67vh;
+   	 width: 110vh;
+}
+
+
 
 }
 
@@ -167,8 +211,15 @@ button.Button:hover{
     	font-size: 47px;
     }
 
+	button.Button2 {
+    	font-size: 35px;
+    }
     #audio {
 	margin-top: 38%;
+}
+div.fullHeight2 {
+	 height: 74vh;
+   	 width: 70vh;
 }
 
 
@@ -189,11 +240,38 @@ button.Button:hover{
   button.Button {
     font-size: 40px;
     }
+     button.Button2 {
+    font-size: 30px;
+    }
+
 
    	#audio {
 	margin-top: 53%;
 }
-
+div.fullHeight2 {
+	 height: 77vh;
+   	 width: 59vh;
+}
 
 }
 
+
+.flexContainer2 {
+    display: flex;
+}
+.flexItem2 {
+    flex: 1;
+
+}
+.flexColumn2 {
+    flex-direction: column;
+}
+
+.main2{
+	font-family: quicksand-regular;
+	
+    order: 2;
+    padding: 20px;
+    border-left: 2px solid #777777;
+    border-right: 2px solid #777777;
+}
