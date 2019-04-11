@@ -173,7 +173,11 @@ button.Button2:hover{
   #audio {
 	margin-top: 20%;
 }
+<<<<<<< HEAD
 div.ajustestexto {
+=======
+div.tamanhotexto {
+>>>>>>> parent of 63e147f... /
 	 height: 67vh;
    	 width: 110vh;
 }
@@ -204,6 +208,7 @@ div.ajustestexto {
     }
     #audio {
 	margin-top: 38%;
+<<<<<<< HEAD
 	}
 
 	div.ajustestexto {
@@ -211,6 +216,13 @@ div.ajustestexto {
    	 width: 70vh;
 	}
 
+=======
+}
+div.tamnhotexto {
+	 height: 74vh;
+   	 width: 70vh;
+}
+>>>>>>> parent of 63e147f... /
 
 }
 
@@ -236,9 +248,14 @@ div.ajustestexto {
 
    	#audio {
 	margin-top: 53%;
+<<<<<<< HEAD
 	}
 
 div.ajustestexto {
+=======
+}
+div.tamanhotexto {
+>>>>>>> parent of 63e147f... /
 	 height: 77vh;
    	 width: 59vh;
 }
@@ -246,6 +263,7 @@ div.ajustestexto {
 }
 
 
+<<<<<<< HEAD
 div.ajustestexto {
 	font-family: quicksand-regular;
 	background-color: white;
@@ -263,13 +281,25 @@ div.ajustestexto2 {
 	 height: 70vh;
    	 width: 70vh;
 	}
+=======
+.flexContainer2 {
+    display: flex;
+>>>>>>> parent of 63e147f... /
 }
+.flexItem2 {
+   flex: 1; 
 
+<<<<<<< HEAD
 @media screen and (max-width: 800px) {
 	div.ajustestexto2 {
 	 height: 77vh;
    	 width: 59vh;
 }
+=======
+}
+.flexColumn2 {
+    flex-direction: column;
+>>>>>>> parent of 63e147f... /
 }
 
 @media screen and (min-width: 1201px) {
