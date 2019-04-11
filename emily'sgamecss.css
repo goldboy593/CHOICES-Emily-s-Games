@@ -212,7 +212,7 @@ div.tamanhotexto {
     #audio {
 	margin-top: 38%;
 }
-div.tamnhotexto {
+div.tamanhotexto {
 	 height: 70vh;
    	 width: 70vh;
 }
@@ -262,7 +262,7 @@ div.tamanhotexto {
     flex-direction: column;
 }
 
-.main2{
+.textoajustes{
 	font-family: quicksand-regular;
 	background-color: white;
     order: 2;
