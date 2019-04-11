@@ -52,8 +52,6 @@ html {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-
-
 }
 
 
@@ -62,7 +60,6 @@ html {
 /*Emily's Games Presents*/
 /**//**//**//**//**//**/
 h1.texto {
-	/* margin-top: 15%; */
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -78,17 +75,13 @@ h1.texto {
 /**//**//**//**//**//**//**//**//**/
 h1.textin {
 
-
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-
-		white-space: nowrap;
-
+	white-space: nowrap;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-
 
     color: #531b04;
 
@@ -180,7 +173,7 @@ button.Button2:hover{
   #audio {
 	margin-top: 20%;
 }
-div.tamanhotexto {
+div.ajustestexto {
 	 height: 67vh;
    	 width: 110vh;
 }
@@ -212,7 +205,7 @@ div.tamanhotexto {
     #audio {
 	margin-top: 38%;
 }
-div.tamnhotexto {
+div.ajustestexto {
 	 height: 70vh;
    	 width: 70vh;
 }
@@ -243,30 +236,21 @@ div.tamnhotexto {
    	#audio {
 	margin-top: 53%;
 }
-div.tamanhotexto {
+div.ajustestexto {
 	 height: 77vh;
    	 width: 59vh;
 }
 
 }
 
-
-.flexContainer2 {
-    display: flex;
-}
-.flexItem2 {
-   flex: 1; 
-
-}
-.flexColumn2 {
-    flex-direction: column;
-}
-
-.main2{
+div.ajustestexto{
 	font-family: quicksand-regular;
 	background-color: white;
     order: 2;
     padding: 20px;
     border: 2px solid #777777;
+    overflow:scroll; 
+    overflow-x: 
+    hidden;
 }
 
