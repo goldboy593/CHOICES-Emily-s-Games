@@ -190,12 +190,6 @@ button.Button2:hover{
 	margin-top: 20%;
 }
 
-   	div.texto {
-    		
-   	 width: 40vh;
-   	 height: 40vh;
-	}
-
 
 }
 
@@ -220,6 +214,11 @@ button.Button2:hover{
     	font-size: 35px;
     }
 
+   	div.texto {
+    		
+   	 width: 40vh;
+   	 height: 40vh;
+	}
 
     #audio {
 	margin-top: 38%;
