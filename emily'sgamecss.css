@@ -172,11 +172,11 @@ button.Button2:hover{
 
   #audio {
 	margin-top: 20%;
-}
-div.ajustestexto {
+	}
+	div.ajustestexto {
 	 height: 63vh;
    	 width: 110vh;
-}
+	}
 
 
 
@@ -207,12 +207,12 @@ div.ajustestexto {
 	}
 
 	div.ajustestexto {
-	 height: 70vh;
-   	 width: 70vh;
+	 height: 650px;
+   	 width: 650px;
 	}
 
 
-}
+	}
 
 @media screen and (max-width: 800px) {
   h1.texto {
@@ -238,12 +238,12 @@ div.ajustestexto {
 	margin-top: 53%;
 	}
 
-div.ajustestexto {
-	 height: 73vh;
-   	 width: 59vh;
-}
+	div.ajustestexto {
+	 height: 670px;
+   	 width: 515px;
+	}
 
-}
+	}
 
 
 div.ajustestexto {
