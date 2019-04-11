@@ -18,6 +18,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+
 }
 .fullHeight {
     height: 100vh;
@@ -25,7 +26,7 @@ html {
 .itemCenter {
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: flex-start;
+          align-items: flex-start;
 }
 .fullHeight {
     height: 100vh;
@@ -129,15 +130,13 @@ button.Button {
 	border-color: transparent;
 }
 
-#content2 {
-	/* height: 570px; */
+ #content2 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: row;
 	justify-content: center;
 	justify-content: space-between;
-}
+} 
 
 
 button.Button2 {
@@ -148,14 +147,9 @@ button.Button2 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	/*
-	justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center; */
+
 	font-family: Quicksand-Regular;
-/*	margin-bottom: 3%; */
-/*	margin-top: 2%; */ 
+
 	color: rgba(255,255,255, 1);
 	background-color: transparent;
 	border-color: transparent;
