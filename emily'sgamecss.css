@@ -182,7 +182,7 @@ button.Button2:hover{
 	margin-top: 20%;
 }
 
-#tamanhotexto {
+ div.texto {
 	
    	 width: 110vh;
    	 height: 60vh;
@@ -213,7 +213,7 @@ button.Button2:hover{
     #audio {
 	margin-top: 38%;
 	}
-#tamanhotexto {
+		div.texto {
    	 width: 70vh;
    	 height: 70vh;
 	}
@@ -245,7 +245,8 @@ button.Button2:hover{
    	#audio {
 	margin-top: 53%;
 }
-#tamanhotexto {
+
+	div.texto {
    	 width: 59vh;
    	 height: 75vh;
 }
