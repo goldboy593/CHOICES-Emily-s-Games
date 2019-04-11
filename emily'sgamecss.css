@@ -204,12 +204,12 @@ div.ajustestexto {
     }
     #audio {
 	margin-top: 38%;
-}
+	}
 
-div.ajustestexto {
+	div.ajustestexto {
 	 height: 70vh;
    	 width: 70vh;
-}
+	}
 
 
 }
@@ -236,7 +236,8 @@ div.ajustestexto {
 
    	#audio {
 	margin-top: 53%;
-}
+	}
+
 div.ajustestexto {
 	 height: 77vh;
    	 width: 59vh;
@@ -257,3 +258,24 @@ div.ajustestexto {
     overflow-x: hidden; 
 }
 
+@media screen and (max-width:1200px) and (min-width:801px) {
+div.ajustestexto2 {
+	 height: 70vh;
+   	 width: 70vh;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	div.ajustestexto2 {
+	 height: 77vh;
+   	 width: 59vh;
+}
+}
+
+@media screen and (min-width: 1201px) {
+	div.ajustestexto2 {
+	 height: 67vh;
+   	 width: 110vh;
+}
+
+}
