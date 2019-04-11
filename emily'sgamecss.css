@@ -67,7 +67,7 @@ h1.texto {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	
-    color: 	#999999;
+    color: 	#999999; 
 }
 
 /**//**//**//**//**//**//**//**//**/
@@ -83,8 +83,8 @@ h1.textin {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 
-    color: #531b04;
-
+   /* color: #531b04; */
+     color: white;
 }
 
 
