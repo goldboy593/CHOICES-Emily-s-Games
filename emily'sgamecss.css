@@ -195,11 +195,10 @@ button.Button2:hover{
 	margin-top: 20%;
 }
 div.tamanhotexto {
-	 height: 67vh;
+	
    	 width: 110vh;
+   	 height: 60vh;
 }
-
-
 
 }
 
@@ -225,11 +224,12 @@ div.tamanhotexto {
     }
     #audio {
 	margin-top: 38%;
-}
-div.tamnhotexto {
-	 height: 74vh;
+	}
+	div.tamanhotexto {
    	 width: 70vh;
-}
+   	 height: 70vh;
+	}
+
 
 
 }
@@ -258,8 +258,8 @@ div.tamnhotexto {
 	margin-top: 53%;
 }
 div.tamanhotexto {
-	 height: 77vh;
    	 width: 59vh;
+   	 height: 75vh;
 }
 
 }
@@ -267,11 +267,10 @@ div.tamanhotexto {
 
 .flexContainer2 {
     display: flex;
-}
-.flexItem2 {
-   flex: 1; 
+    flex: 1;
 
 }
+
 .flexColumn2 {
     flex-direction: column;
 }
