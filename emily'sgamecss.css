@@ -205,6 +205,7 @@ div.ajustestexto {
     #audio {
 	margin-top: 38%;
 }
+
 div.ajustestexto {
 	 height: 70vh;
    	 width: 70vh;
@@ -243,14 +244,16 @@ div.ajustestexto {
 
 }
 
-div.ajustestexto{
+
+div.ajustestexto {
 	font-family: quicksand-regular;
 	background-color: white;
-    order: 2;
     padding: 20px;
     border: 2px solid #777777;
     overflow:scroll; 
     overflow-x: 
     hidden;
+    overflow:scroll; 
+    overflow-x: hidden; 
 }
 
