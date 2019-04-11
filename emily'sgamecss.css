@@ -177,6 +177,9 @@ button.Button2:hover{
 div.ajustestexto {
 =======
 div.tamanhotexto {
+<<<<<<< HEAD
+>>>>>>> parent of 63e147f... /
+=======
 >>>>>>> parent of 63e147f... /
 	 height: 67vh;
    	 width: 110vh;
@@ -209,6 +212,7 @@ div.tamanhotexto {
     #audio {
 	margin-top: 38%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	}
 
 	div.ajustestexto {
@@ -222,6 +226,14 @@ div.tamnhotexto {
 	 height: 74vh;
    	 width: 70vh;
 }
+>>>>>>> parent of 63e147f... /
+=======
+}
+div.tamnhotexto {
+	 height: 74vh;
+   	 width: 70vh;
+}
+
 >>>>>>> parent of 63e147f... /
 
 }
@@ -255,6 +267,9 @@ div.ajustestexto {
 =======
 }
 div.tamanhotexto {
+<<<<<<< HEAD
+>>>>>>> parent of 63e147f... /
+=======
 >>>>>>> parent of 63e147f... /
 	 height: 77vh;
    	 width: 59vh;
@@ -284,11 +299,15 @@ div.ajustestexto2 {
 =======
 .flexContainer2 {
     display: flex;
+<<<<<<< HEAD
+>>>>>>> parent of 63e147f... /
+=======
 >>>>>>> parent of 63e147f... /
 }
 .flexItem2 {
    flex: 1; 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media screen and (max-width: 800px) {
 	div.ajustestexto2 {
@@ -296,6 +315,8 @@ div.ajustestexto2 {
    	 width: 59vh;
 }
 =======
+=======
+>>>>>>> parent of 63e147f... /
 }
 .flexColumn2 {
     flex-direction: column;
