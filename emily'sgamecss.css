@@ -79,7 +79,7 @@ h1.texto {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	
-    color: 	#999999
+    color: 	#999999;
 }
 
 /**//**//**//**//**//**//**//**//**/
@@ -99,7 +99,7 @@ h1.textin {
 	        justify-content: center;
 
 
-    color: #531b04
+    color: #531b04;
 
 }
 
@@ -157,10 +157,10 @@ button.Button2 {
 }
 
 button.Button:hover{
-   color: rgba(240,240,240, 0.5)
+   color: rgba(240,240,240, 0.5);
 }
 button.Button2:hover{
-   color: rgba(240,240,240, 0.5)
+   color: rgba(240,240,240, 0.5);
 }
 
 
