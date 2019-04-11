@@ -30,8 +30,7 @@ html {
 }
 .fullHeight {
     height: 100vh;
-    
-    margin: -0.4%;
+    margin: -0.5%;
 }
 .centerImage {
     background: url(material-wallpaper-2560x720.jpg), url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg);
