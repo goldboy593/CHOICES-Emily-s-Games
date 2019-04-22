@@ -83,8 +83,8 @@ h1.textin {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 
-   /* color: #531b04; */
-     color: white;
+   color: #531b04; 
+     
 }
 
 
@@ -125,6 +125,7 @@ button.Button {
 
 
 button.Button2 {
+	 
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
@@ -167,6 +168,7 @@ button.Button2:hover{
 
    button.Button2 {
     font-size: 40px;
+    max-width: 36vh;
   
   }
 
@@ -174,7 +176,7 @@ button.Button2:hover{
 	margin-top: 20%;
 	}
 	div.ajustestexto {
-	 height: 63vh;
+	 height: 53vh;
    	 width: 110vh;
 	}
 
@@ -201,6 +203,7 @@ button.Button2:hover{
 
 	button.Button2 {
     	font-size: 35px;
+    	max-width: 40vmin;
     }
     #audio {
 	margin-top: 38%;
@@ -256,24 +259,3 @@ div.ajustestexto {
 
 }
 
-/*@media screen and (max-width:1200px) and (min-width:801px) {
-div.ajustestexto2 {
-	 height: 70vh;
-   	 width: 70vh;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	div.ajustestexto2 {
-	 height: 77vh;
-   	 width: 59vh;
-}
-}
-
-@media screen and (min-width: 1201px) {
-	div.ajustestexto2 {
-	 height: 67vh;
-   	 width: 110vh;
-}
-
-}*/
