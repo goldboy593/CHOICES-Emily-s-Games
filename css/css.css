@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: "quicksand-regular";
-  src: local('midia/Quicksand-Regular.otf'), url("https://raw.githack.com/vitormoledo/CHOICES-Emily-s-Games/master/midia/Quicksand-Regular.otf");
+  src: local('mídia/Quicksand-Regular.otf'), url("https://raw.githack.com/vitormoledo/CHOICES-Emily-s-Games/master/mídia/Quicksand-Regular.otf");
   font-weight: normal;
   font-style: normal;
 }
