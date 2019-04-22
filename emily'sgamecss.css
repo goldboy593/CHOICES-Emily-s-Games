@@ -1,261 +1,245 @@
-body { font-family: "quicksand-regular";}
-
-h1 { white-space: nowrap; }
+h1 {
+  white-space: nowrap;
+}
 
 html {
-  position:fixed;
-  width:100%;
-  height:100%;
-} 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
 
+@font-face {
+  font-family: "quicksand-regular";
+  src: url("https://raw.githack.com/vitormoledo/CHOICES-Emily-s-Games/master/Quicksand-Regular.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "quicksand-regular";
+}
 
 .flexContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .flexCenter {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .fullHeight {
-    height: 100vh;
+  height: 100vh;
 }
 .itemCenter {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 .fullHeight {
-    height: 100vh;
-    
-    margin: -0.6%;
+  height: 100vh;
+
+  margin: -0.6%;
 }
 .centerImage {
-    background: url(material-wallpaper-2560x720.jpg), url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg);
-    background-size: cover;
+  background: url(material-wallpaper-2560x720.jpg),
+    url(http://wallpaperswide.com/download/material-wallpaper-2560x720.jpg);
+  background-size: cover;
 }
-
-
 
 /*cotent atoa */
 
 #content {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-
-
-/**//**//**//**//**//**/
+/**/ /**/ /**/ /**/ /**/ /**/
 /*Emily's Games Presents*/
-/**//**//**//**//**//**/
+/**/ /**/ /**/ /**/ /**/ /**/
 h1.texto {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	
-    color: 	#999999; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  color: #999999;
 }
 
-/**//**//**//**//**//**//**//**//**/
+/**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 /*CHOICES TITLLE */
-/**//**//**//**//**//**//**//**//**/
+/**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/ /**/
 h1.textin {
-
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	white-space: nowrap;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
    color: #531b04; 
-     
+
 }
 
-
-
-
-/**//**//**//**//**//**//**/
+/**/ /**/ /**/ /**/ /**/ /**/ /**/
 /*START BUTTON*/
-/**//**//**//**//**//**//**/
+/**/ /**/ /**/ /**/ /**/ /**/ /**/
 button.Button {
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	border-color: rgba(255,255,255,0.5);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	font-family: Quicksand-Regular;
-	margin-bottom: 3%;
-	margin-top: 2%;
-	color: rgba(255,255,255, 1);
-	background-color: transparent;
-	border-color: transparent;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Quicksand-Regular;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  border-color: transparent;
 }
 
 #content2 {
-	
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	align-items: row;
-	justify-content: center;
-	justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: row;
+  justify-content: center;
+  justify-content: space-between;
 }
-
 
 button.Button2 {
-	 
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	border-color: rgba(255,255,255,0.5);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 
-	font-family: Quicksand-Regular;
+  font-family: Quicksand-Regular;
 
-	color: rgba(255,255,255, 1);
-	background-color: transparent;
-	border-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  border-color: transparent;
 }
 
-button.Button:hover{
-   color: rgba(240,240,240, 0.5);
+button.Button:hover {
+  color: rgba(240, 240, 240, 0.5);
 }
-button.Button2:hover{
-   color: rgba(240,240,240, 0.5);
+button.Button2:hover {
+  color: rgba(240, 240, 240, 0.5);
 }
-
-
-
 
 @media screen and (min-width: 1201px) {
   h1.texto {
     font-size: 60px;
   }
 
-     h1.textin {
+  h1.textin {
     font-size: 155px;
     margin-top: -70px;
   }
 
   button.Button {
     font-size: 55px;
-  
   }
 
-   button.Button2 {
+  button.Button2 {
     font-size: 40px;
-    max-width: 36vh;
-  
+    max-width: 21vmax;
   }
 
   #audio {
-	margin-top: 20%;
-	}
-	div.ajustestexto {
-	 height: 53vh;
-   	 width: 110vh;
-	}
-
-
-
+    margin-top: 20%;
+  }
+  div.ajustestexto {
+    height: 28vmax;
+    width: 65vmax;
+  }
 }
 
+@media screen and (max-width: 1200px) and (min-width: 801px) {
+  h1.texto {
+    font-size: 47px;
+  }
 
-@media screen and (max-width:1200px) and (min-width:801px) {
-	h1.texto {
-    	font-size: 47px;
-    }
+  h1.textin {
+    font-size: 95px;
+    margin-top: -50px;
+    margin-bottom: 35%;
+  }
 
+  button.Button {
+    font-size: 47px;
+  }
 
-  	h1.textin {
-    	font-size: 95px;
-    	margin-top: -50px;
-    	margin-bottom: 35%;
-    }
+  button.Button2 {
+    font-size: 35px;
+    max-width: 24vmin;
+  }
+  #audio {
+    margin-top: 38%;
+  }
 
-		button.Button {
-    	font-size: 47px;
-    }
-
-	button.Button2 {
-    	font-size: 35px;
-    	max-width: 40vmin;
-    }
-    #audio {
-	margin-top: 38%;
-	}
-
-	div.ajustestexto {
-	 height: 650px;
-   	 width: 650px;
-	}
-
-
-	}
+  div.ajustestexto {
+    height: 65vmin;
+    width: 73vmin;
+  }
+}
 
 @media screen and (max-width: 800px) {
   h1.texto {
     font-size: 35px;
-    }
+  }
 
   h1.textin {
     font-size: 78px;
     margin-top: -40px;
     margin-bottom: 50%;
-
-    }
+  }
 
   button.Button {
     font-size: 40px;
-    }
-     button.Button2 {
+  }
+  button.Button2 {
     font-size: 30px;
-    }
+    max-width: 25vmin;
+  }
 
+  #audio {
+    margin-top: 53%;
+  }
 
-   	#audio {
-	margin-top: 53%;
-	}
-
-	div.ajustestexto {
-	 height: 670px;
-   	 width: 515px;
-	}
-
-	}
-
-
-div.ajustestexto {
-	font-family: quicksand-regular;
-	background-color: white;
-    padding: 20px;
-    border: 2px solid #777777;
-    overflow: scroll; 
-    overflow-x: hidden;
-
+  div.ajustestexto {
+    height: 65vmin;
+    width: 75vmin;
+  }
 }
 
+div.ajustestexto {
+  font-family: quicksand-regular;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #777777;
+  overflow: scroll;
+  overflow-x: hidden;
+}
