@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: "quicksand-regular";
-  src: url("https://raw.githack.com/vitormoledo/CHOICES-Emily-s-Games/master/Quicksand-Regular.otf")
+  src: local('Quicksand-Regular.otf'), url("https://raw.githack.com/vitormoledo/CHOICES-Emily-s-Games/master/Quicksand-Regular.otf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -19,6 +19,10 @@ html {
 body {
   font-family: "quicksand-regular";
 }
+
+a:link { 
+	text-decoration:none; 
+} 	
 
 .flexContainer {
   display: -webkit-box;
@@ -91,7 +95,11 @@ h1.textin {
   justify-content: center;
 
    color: #531b04; 
+}
 
+#textinsolo {
+   margin-top: 1%; 
+   margin-bottom: 5vh;
 }
 
 /**/ /**/ /**/ /**/ /**/ /**/ /**/
@@ -134,18 +142,22 @@ button.Button2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-
   font-family: Quicksand-Regular;
-
   color: rgba(255, 255, 255, 1);
   background-color: transparent;
   border-color: transparent;
+
 }
 
-button.Button:hover {
+button:focus {
+    outline: 0px; 
+}
+
+button:hover {
   color: rgba(240, 240, 240, 0.5);
 }
-button.Button2:hover {
+
+#strike {
   color: rgba(240, 240, 240, 0.5);
 }
 
@@ -172,8 +184,8 @@ button.Button2:hover {
     margin-top: 20%;
   }
   div.ajustestexto {
-    height: 28vmax;
-    width: 65vmax;
+    max-height: 28vmax;
+    max-width: 65vmax;
   }
 }
 
@@ -201,8 +213,8 @@ button.Button2:hover {
   }
 
   div.ajustestexto {
-    height: 65vmin;
-    width: 73vmin;
+    max-height: 65vmin;
+    max-width: 73vmin;
   }
 }
 
@@ -230,13 +242,14 @@ button.Button2:hover {
   }
 
   div.ajustestexto {
-    height: 65vmin;
-    width: 75vmin;
+    max-height: 65vmin;
+    max-width: 75vmin;
   }
 }
 
 div.ajustestexto {
   font-family: quicksand-regular;
+  font-size: 150%;
   background-color: white;
   padding: 20px;
   border: 2px solid #777777;
